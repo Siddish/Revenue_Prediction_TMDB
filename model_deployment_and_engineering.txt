@@ -1,0 +1,7 @@
+Deployment and Engineering steps:
+1. Run the baseline and final model on local computer
+2. Load the model and its features to a pickle file
+3. Use Flask to deploy the model as API
+4. The api should take feature values as input and return the predicted revenue value
+5. Both input and output are in json format and end users can change and manipulate them accordingly
+6. Test the API on Postman and deploy the API as a script on an EC2 server on AWS
